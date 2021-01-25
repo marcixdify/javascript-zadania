@@ -98,3 +98,20 @@ console.log(result);
 }
 
 //d
+
+//e
+let star = ' *';
+
+for (let x = 0; x < 5; x++) {
+var result = '';
+for (y = 0; y < 5 - x; y++) {
+result += ' ';
+}
+for (z = 0; z < x + 1; z++) {
+result += star;
+}
+console.log(result);
+}
+for (v = 0; v < 3; v++) {
+console.log('     *');
+}
